@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.android_studio.homefinder.Activity_Cases">
+
+    <LinearLayout
+        android:id="@+id/particulars"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/welcome_insert_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="اکنون میتوانید ملک خود را اضافه کنید"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="هدف"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/type_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="نوع ملک"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner_type_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/situation_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="موقعیت ملک"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/map_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="17dp"
+            android:text="باید به گوگل مپ وصل شم" />
+
+        <TextView
+            android:id="@+id/land_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="متراژ(متر مربع)"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/enter_land_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="textPersonName"
+            android:paddingRight="17dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="قیمت"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/rent_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="190dp"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingRight="17dp"
+                android:text="اجاره(تومان)"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/original_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/rent_price"
+                android:width="190dp"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingRight="17dp"
+                android:text="پول پیش(میلیون)"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/particulars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="ویژگی ملک"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/situation_bongah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="موقعیت بنگاه"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/map_bongah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            android:paddingRight="17dp"
+            android:text="باید به گوگل وصل بشم"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bongah_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="نام بنگاه"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/insert_case"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="اضافه"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/delete_case"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            android:text="حذف"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="-83dp"
+        tools:layout_editor_absoluteY="416dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">home finder</string>
+
+    <string-array name="goal">
+        <item>فروش</item>
+        <item>رهن</item>
+        <item>اجاره</item>
+    </string-array>
+
+    <string-array name="type_home">
+        <item>آپارتمان</item>
+        <item>ویلایی</item>
+        <item>کلنگی</item>
+        <item>پنت هاوس</item>
+        <item>ویلا</item>
+        <item>زمین مسکونی</item>
+        <item>اداری</item>
+        <item>تجاری</item>
+        <item>زمین تجاری</item>
+        <item>زمین زراعی</item>
+        <item>باغ</item>
+        <item>انبار</item>
+        <item>کارخانه</item>
+        <item>مغازه</item>
+    </string-array>
+    <string name="title_activity__map">Map</string>
+
+</resources>
